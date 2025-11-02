@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona - Més Que Un Club</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Font - Inter (Tailwind default) */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Light gray background */
+        }
+        /* Custom CSS for Blaugrana Theme */
+        .blaugrana-bg {
+            background-color: #A50044; /* Deep Maroon */
+        }
+        .blaugrana-text {
+            color: #004D98; /* Deep Blue */
+        }
+        .gold-accent {
+            color: #FDB813; /* Gold/Yellow Accent */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="blaugrana-bg shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo/Title Area -->
+            <div class="flex items-center space-x-3">
+                <!-- Simple SVG Shield Placeholder -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 gold-accent fill-current" viewBox="0 0 24 24">
+                    <path d="M12 2L4 5v6c0 5.55 3.84 10.74 9 11 5.16-.26 9-5.45 9-11V5l-8-3zM12 21.7c-4.04-.63-7-4.66-7-9.7V6.09l7-2.67 7 2.67v5.91c0 5.04-2.96 9.07-7 9.7z"/>
+                </svg>
+                <h1 class="text-3xl font-extrabold text-white tracking-wider">
+                    FC BARCELONA
+                </h1>
+            </div>
+            <!-- Navigation Links (Hidden on small, visible on medium+) -->
+            <nav class="hidden md:flex space-x-6 text-white text-lg">
+                <a href="#history" class="hover:gold-accent transition duration-300 border-b-2 border-transparent hover:border-white pb-1">History</a>
+                <a href="#legends" class="hover:gold-accent transition duration-300 border-b-2 border-transparent hover:border-white pb-1">Legends</a>
+                <a href="#trophies" class="hover:gold-accent transition duration-300 border-b-2 border-transparent hover:border-white pb-1">Trophies</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 bg-cover bg-center" style="background-image: url('https://placehold.co/1200x400/004D98/FDB813/png?text=FC+Barcelona+Stadium');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative flex flex-col items-center justify-center h-full text-center p-4">
+            <h2 class="text-5xl md:text-6xl font-black text-white mb-4 tracking-tighter">
+                MÉS QUE UN CLUB
+            </h2>
+            <p class="text-xl text-gray-200 max-w-2xl">
+                More than a Club: Discover the legacy, the philosophy, and the iconic history of FC Barcelona.
+            </p>
+            <a href="#history" class="mt-8 px-8 py-3 bg-white text-blue-800 font-bold rounded-full shadow-lg hover:bg-gold-accent hover:text-white transition duration-300">
+                Start the Journey
+            </a>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <main class="container mx-auto px-4 py-12">
+
+        <!-- History Section -->
+        <section id="history" class="mb-16">
+            <h3 class="text-4xl font-bold text-center mb-10 pb-2 border-b-4 border-gold-accent blaugrana-text inline-block mx-auto">
+                The Legacy Begins
+            </h3>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <!-- Text Content -->
+                <div class="space-y-6">
+                    <h4 class="text-2xl font-semibold blaugrana-text">Foundation by Joan Gamper</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        FC Barcelona was founded in 1899 by Joan Gamper, a Swiss businessman, and a group of local and foreign football enthusiasts. From its very beginning, the club was intrinsically linked with Catalan identity and culture, setting it apart from other Spanish teams. This bond solidified the club's motto: **Més Que Un Club**.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        The early years saw Barcelona establish itself quickly as a major force in regional and Spanish competitions, setting the stage for the global powerhouse it would become in the following century.
+                    </p>
+                    <a href="#" class="inline-block mt-4 text-sm font-medium text-gold-accent hover:underline">Read more about the founding members &rightarrow;</a>
+                </div>
+                <!-- Image Placeholder (Updated) -->
+                <div>
+                    <img src="https://placehold.co/600x400/A50044/FDB813/png?text=Joan+Gamper+%7C+1899"
+                         alt="Image of Joan Gamper, the founder of FC Barcelona"
+                         class="w-full h-auto rounded-xl shadow-2xl transition duration-500 hover:scale-[1.02]"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/A50044/FFFFFF/png?text=Founder';" />
+                </div>
+            </div>
+        </section>
+
+        <!-- The Dream Team & Total Football Era -->
+        <section class="mb-16">
+            <h3 class="text-4xl font-bold text-center mb-10 pb-2 border-b-4 border-gold-accent blaugrana-text inline-block mx-auto">
+                The Cruyff & Guardiola Influence
+            </h3>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                 <!-- Image Placeholder (Updated) -->
+                 <div class="order-2 md:order-1">
+                    <img src="https://placehold.co/600x400/004D98/FDB813/png?text=Cruyff+%26+Guardiola+%7C+Tactical+Legacy"
+                         alt="Image symbolizing the legacy of Johan Cruyff and Pep Guardiola"
+                         class="w-full h-auto rounded-xl shadow-2xl transition duration-500 hover:scale-[1.02]"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/004D98/FFFFFF/png?text=Tactical+Masters';" />
+                </div>
+                <!-- Text Content -->
+                <div class="space-y-6 order-1 md:order-2">
+                    <h4 class="text-2xl font-semibold blaugrana-text">Total Football & La Masia</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        The club's modern identity is inseparable from **Johan Cruyff**. First as a player and then as manager of the "Dream Team" (1988–1996), he implemented the principles of Total Football. This philosophy, which emphasizes ball control and positional play, became the foundation of **La Masia**, Barcelona's renowned youth academy.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        This legacy was perfected by Pep Guardiola, a product of La Masia and Cruyff's philosophy, who managed the legendary team (2008–2012) that won an unprecedented six trophies in a single calendar year.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legends Section -->
+        <section id="legends" class="mb-16 text-center">
+            <h3 class="text-4xl font-bold text-center mb-10 pb-2 border-b-4 border-gold-accent blaugrana-text inline-block mx-auto">
+                Immortal Legends
+            </h3>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Legend Card 1: Messi (Updated) -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/A50044/FDB813/png?text=Lionel+Messi"
+                         alt="Legendary Player 1"
+                         class="w-full h-48 object-cover"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/FDB813/000000/png?text=Legend+1';" />
+                    <div class="p-4">
+                        <h4 class="text-xl font-bold blaugrana-text">Lionel Messi</h4>
+                        <p class="text-sm text-gray-500">The Greatest of All Time, La Masia Product</p>
+                    </div>
+                </div>
+
+                <!-- Legend Card 2: Xavi (Updated) -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/004D98/FDB813/png?text=Xavi+Hernández"
+                         alt="Legendary Player 2"
+                         class="w-full h-48 object-cover"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/004D98/FFFFFF/png?text=Legend+2';" />
+                    <div class="p-4">
+                        <h4 class="text-xl font-bold blaugrana-text">Xavi Hernández</h4>
+                        <p class="text-sm text-gray-500">The Midfield Maestro, Architect of the Tiki-Taka</p>
+                    </div>
+                </div>
+
+                <!-- Legend Card 3: Iniesta (Updated) -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/FDB813/A50044/png?text=Andrés+Iniesta"
+                         alt="Legendary Player 3"
+                         class="w-full h-48 object-cover"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/A50044/FFFFFF/png?text=Legend+3';" />
+                    <div class="p-4">
+                        <h4 class="text-xl font-bold blaugrana-text">Andrés Iniesta</h4>
+                        <p class="text-sm text-gray-500">The Creative Genius, World Cup Winner</p>
+                    </div>
+                </div>
+
+                <!-- Legend Card 4: Cruyff (Updated) -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/004D98/A50044/png?text=Johan+Cruyff"
+                         alt="Legendary Player 4"
+                         class="w-full h-48 object-cover"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/004D98/FDB813/png?text=Legend+4';" />
+                    <div class="p-4">
+                        <h4 class="text-xl font-bold blaugrana-text">Johan Cruyff</h4>
+                        <p class="text-sm text-gray-500">The Prophet of Total Football</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Trophy Case Section -->
+        <section id="trophies" class="p-8 rounded-xl blaugrana-bg text-white shadow-2xl">
+            <h3 class="text-4xl font-bold text-center mb-8 pb-2 border-b-4 border-gold-accent inline-block mx-auto">
+                Major Honors
+            </h3>
+            <div class="grid sm:grid-cols-3 gap-8 text-center">
+                <!-- Trophy 1 -->
+                <div>
+                    <p class="text-6xl gold-accent font-black">27+</p>
+                    <p class="text-xl font-semibold mt-2">La Liga Titles</p>
+                    <p class="text-gray-200 text-sm">(Spanish League Championship)</p>
+                </div>
+                <!-- Trophy 2 -->
+                <div>
+                    <p class="text-6xl gold-accent font-black">5+</p>
+                    <p class="text-xl font-semibold mt-2">UEFA Champions League</p>
+                    <p class="text-gray-200 text-sm">(European Cup / CL)</p>
+                </div>
+                <!-- Trophy 3 -->
+                <div>
+                    <p class="text-6xl gold-accent font-black">31+</p>
+                    <p class="text-xl font-semibold mt-2">Copa del Rey</p>
+                    <p class="text-gray-200 text-sm">(Spanish Cup Competition)</p>
+                </div>
+            </div>
+            <p class="text-center mt-6 text-sm text-gray-300">*Numbers are approximate and represent a world-class tally.</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4 text-gray-400">© 2025 FC Barcelona History Tribute. All Rights Reserved.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-gold-accent hover:text-white transition duration-300">Twitter (X)</a>
+                <a href="#" class="text-gold-accent hover:text-white transition duration-300">Instagram</a>
+                <a href="#" class="text-gold-accent hover:text-white transition duration-300">Official Site</a>
+            </div>
+            <p class="mt-4 text-xs text-gray-600">
+                Created with Tailwind CSS. All images are placeholders.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
